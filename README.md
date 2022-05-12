@@ -36,14 +36,27 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build 
+para compilar a aplicação
 ```
 
 ### Lints and fixes files
 ```
 npm run lint
 ```
+### Processo para subir para produção
+````
+dentro da pasta dist 
+cd dist / npm i -g http-server
 
+após na caminho dist
+
+http-server
+
+````
+
+# VERCEL 
+> Esta aplicação esta disponivel no @[vercel](https://projeto-track-estudo.vercel.app/)  
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
