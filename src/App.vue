@@ -4,7 +4,7 @@
       <BarraLateral @aoTemaAlterado="trocarTema"/>
     </div>
     <div class="column is-three-quarter conteudo">
-      <ListaTarefas/>
+      <router-view/>
     </div>
   </main>
 </template>
@@ -16,12 +16,10 @@
 import {defineComponent} from "vue";
 import BarraLateral from "@/components/BarraLateral.vue";
 import ITarefas from "@/interface/ITarefas";
-import ListaTarefas from "@/components/ListaTarefas.vue";
 
 export default defineComponent ({
   name:'App',
   components: {
-    ListaTarefas,
     BarraLateral,
   },
   data () {
